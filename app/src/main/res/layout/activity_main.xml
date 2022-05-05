@@ -42,7 +42,7 @@
             android:id="@+id/tbtnSVS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:textOff="@string/svsDisabled"
             android:textOn="@string/svsEnabled" />
 
@@ -50,7 +50,7 @@
             android:id="@+id/tbtnGST"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:textOff="@string/gstDisabled"
             android:textOn="@string/gstEnabled"/>
 

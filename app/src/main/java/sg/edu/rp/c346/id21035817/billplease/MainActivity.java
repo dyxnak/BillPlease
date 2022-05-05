@@ -62,8 +62,19 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 double eachPays = newAmount / pax;
-                tvTotalBill.setText("$" + newAmount + "");
-                tvEachPays.setText("$" + eachPays);
+                tvTotalBill.setText("Total amount: $" + newAmount + "");
+                tvEachPays.setText("Each pays: $" + eachPays);
+            }
+        });
+
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                etAmount.setText("");
+                etPax.setText("");
+                tbtnSVS.setChecked(false);
+                tbtnGST.setChecked(false);
+                etDiscount.setText("");
             }
         });
     }
